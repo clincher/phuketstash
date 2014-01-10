@@ -7,7 +7,6 @@
 
 Pillow
 ipython
-readline
 pytz
 
 django-grappelli
