@@ -4,3 +4,10 @@
 
 # for bcrypt passwords
 #bcrypt
+
+Pillow
+ipython
+readline
+pytz
+
+django-grappelli
