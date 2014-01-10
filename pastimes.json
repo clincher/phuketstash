@@ -1,0 +1,50 @@
+[
+{
+  "pk": 1, 
+  "model": "pastimes.pastime", 
+  "fields": {
+    "name": "\u043a\u0438\u043d\u043e\u0442\u0435\u0430\u0442\u0440", 
+    "desc": ""
+  }
+},
+{
+  "pk": 2, 
+  "model": "pastimes.pastime", 
+  "fields": {
+    "name": "\u043c\u0430\u0444\u0438\u044f", 
+    "desc": ""
+  }
+},
+{
+  "pk": 3, 
+  "model": "pastimes.pastime", 
+  "fields": {
+    "name": "\u043a\u043e\u0432\u043e\u0440\u043a\u0438\u043d\u0433", 
+    "desc": ""
+  }
+},
+{
+  "pk": 4, 
+  "model": "pastimes.pastime", 
+  "fields": {
+    "name": "\u0431\u0430\u043d\u044f", 
+    "desc": ""
+  }
+},
+{
+  "pk": 5, 
+  "model": "pastimes.pastime", 
+  "fields": {
+    "name": "\u043a\u0430\u0444\u0435", 
+    "desc": ""
+  }
+},
+{
+  "pk": 6, 
+  "model": "pastimes.pastime", 
+  "fields": {
+    "name": "\u0434\u043e\u0440\u043c", 
+    "desc": ""
+  }
+}
+]

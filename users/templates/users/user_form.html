@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% load i18n staticfiles %}
+
+{% block title %}{{ user.get_full_name }} {% trans 'profile' %}{% endblock %}
+{% block header-title %}Личный кабинет{% endblock %}
+
+{% block content %}
+    {% if messages %}
+    <div class="messages">
+        {% for message in messages %}
+        <span{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="u-wrapper">
+        <form class="profile-form" method="post" action="{% url 'user-edit' %}" enctype="multipart/form-data">
+            <fieldset>
+                {% csrf_token %}
+                {{ form }}
+{#                <div class="row important">#}
+{#                    <label class="profile-label" for="id_first_name">Имя</label>#}
+{#                    {{ form.first_name }}#}
+{#                </div>#}
+{#                <div class="row important">#}
+{#                    <label class="profile-label" for="id_last_name">Фамилия</label>#}
+{#                    {{ form.last_name }}#}
+{#                </div>#}
+{#                <div class="row">#}
+{#                    <label class="profile-label" for="id_birth_date">Дата рождения</label>#}
+{#                    {{ form.birth_date }}#}
+{#                </div>#}
+{#                <div class="row">#}
+{#                    <label class="profile-label">Пол</label>#}
+{#                    {{ form.gender }}#}
+{#                </div>#}
+{#                <div class="row">#}
+{#                    <label class="profile-label" for="id_phone_number">Телефон</label>#}
+{#                    {{ form.phone_number }}#}
+{#                </div>#}
+{#                <div class="row">#}
+{#                    <label class="profile-label" for="id_country">Страна</label>#}
+{#                    {{ form.country }}#}
+{#                </div>#}
+{#                <div class="row">#}
+{#                    <label class="profile-label" for="id_residence">Город</label>#}
+{#                    {{ form.residence }}#}
+{#                </div>#}
+{#                <div class="row">#}
+{#                    <label class="profile-label" for="id_bio">Дополнительная информация</label>#}
+{#                    {{ form.bio }}#}
+{#                </div>#}
+{#                <div class="user-photo">#}
+{#                    {{ form.userpic_origin }}#}
+{#                    <output id="show-add-image">#}
+{#                    {% if user.userpic_origin %}#}
+{#                        <img src="{% url 'image-crop-resize' '' user.userpic_origin.name %}?width=140&height=140" alt="{{ user.get_full_name }}"/>#}
+{#                    {% endif %}#}
+{#                    </output>#}
+{#                </div>#}
+                <input type="submit" value="Сохранить"/>
+            </fieldset>
+        </form>
+    </div>
+{% endblock %}
+{% block js %}
+     <script src="{% static 'js/js/profile.js' %}"></script>
+     <script>
+        $(function() {
+            $( "#id_birth_date" ).datepicker({
+                autoSize: true,
+	            changeMonth: true,
+				changeYear: true,
+	            yearRange: "1940:2012"
+            });
+
+            _.delay(function() {
+                $('.messages').fadeOut();
+            }, 1500)
+        });
+    </script>
+{% endblock %}
