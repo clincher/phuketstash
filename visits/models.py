@@ -62,8 +62,8 @@ class Subscription(models.Model):
     def recalculate(self):
         if self.plan.daily_fees:
             daily_fee = self.daily_fee()
-            days = self.payment_set.aggregate(Sum('value')).get(
-                'value__sum', 0) / daily_fee
+            days = (self.payment_set.aggregate(Sum('value'))['value__sum'] or 0
+                   ) / daily_fee
             self.expire_date = self.start_date + timedelta(days=days)
         else:
             self.expire_date = self.start_date + timedelta(days=self.plan.days)
