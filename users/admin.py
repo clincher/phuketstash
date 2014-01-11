@@ -6,6 +6,7 @@ from django.contrib.auth.admin import UserAdmin
 from models import User
 from forms import AdminUserChangeForm, AdminUserCreationForm
 from visits.models import Subscription
+from visits.forms import EmptyPermittedFormSet
 
 
 class SubscriptionInline(admin.StackedInline):
@@ -83,7 +84,7 @@ class CustomUserAdmin(UserAdmin):
                 yield inline.get_formset(request, obj)
 
     def save_formset(self, request, form, formset, change):
-        if isinstance(formset, PaymentInlineFormSet):
+        if isinstance(formset, EmptyPermittedFormSet):
             for form in formset.forms:
                 form.instance.administrant = request.user
         super(SubscriptionAdmin, self).save_formset(
