@@ -16,6 +16,7 @@ class SubscriptionInline(admin.StackedInline):
     max_num = 1
     fk_name = 'user'
     exclude = ['administrant']
+    formset = EmptyPermittedFormSet
     inline_classes = ('grp-collapse grp-open',)
 
     def save_model(self, request, obj, form, change):
