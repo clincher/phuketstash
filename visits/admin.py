@@ -2,7 +2,7 @@
 from django.contrib import admin
 
 from models import Visit, Subscription, Plan, Payment
-from forms import PaymentInlineFormSet
+from forms import EmptyPermittedFormSet
 
 
 class PlanAdmin(admin.ModelAdmin):
@@ -26,14 +26,23 @@ class PaymentInline(admin.StackedInline):
     model = Payment
     extra = 1
     readonly_fields = ('pay_date', 'administrant')
-    formset = PaymentInlineFormSet
+    formset = EmptyPermittedFormSet
+
+    inline_classes = ('grp-collapse grp-open',)
+
+
+class VisitInline(admin.StackedInline):
+    model = Payment
+    extra = 1
+    readonly_fields = ('administrant')
+    formset = EmptyPermittedFormSet
 
     inline_classes = ('grp-collapse grp-open',)
 
 
 class SubscriptionAdmin(AdministrantedModelAdmin):
     list_display = ('user', 'credit', 'administrant', 'plan')
-    inlines = [PaymentInline]
+    inlines = [PaymentInline, VisitInline]
     readonly_fields = ['administrant']
 
     def save_formset(self, request, form, formset, change):

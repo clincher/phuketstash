@@ -3,7 +3,7 @@
 from django.forms.models import BaseInlineFormSet
 
 
-class PaymentInlineFormSet(BaseInlineFormSet):
+class EmptyPermittedFormSet(BaseInlineFormSet):
     """
     Generates an inline formset that is required
     """
