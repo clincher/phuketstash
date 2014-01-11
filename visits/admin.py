@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 from django.contrib import admin
 
 from models import Visit, Subscription, Plan, Payment
@@ -12,7 +13,10 @@ class PlanAdmin(admin.ModelAdmin):
 class AdministrantedModelAdmin(admin.ModelAdmin):
 
     def save_model(self, request, obj, form, change):
-        if not obj.administrant:
+        try:
+            from users.models import User
+            getattr(obj, 'administrant')
+        except User.DoesNotExist:
             obj.administrant = request.user
         super(AdministrantedModelAdmin, self).save_model(
             request, obj, form, change)

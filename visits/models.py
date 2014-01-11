@@ -70,10 +70,10 @@ class Subscription(models.Model):
 
     def credit(self):
         if not self.plan.daily_fees:
-            return self.payment_set.aggregate(Sum('value')).get(
-                'value__sum', 0) - self.plan.price
-        return self.payment_set.aggregate(Sum('value')).get('value__sum', 0) \
-               - (now - self.start_date).days * self.daily_fee()
+            return (self.payment_set.aggregate(Sum('value'))['value__sum'] or 0
+                   ) - self.plan.price
+        return (self.payment_set.aggregate(Sum('value'))['value__sum'] or 0
+                ) - (now - self.start_date).days * self.daily_fee()
 
 
 class Payment(models.Model):
