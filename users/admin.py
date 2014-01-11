@@ -87,9 +87,8 @@ class CustomUserAdmin(UserAdmin):
         if isinstance(formset, EmptyPermittedFormSet):
             for form in formset.forms:
                 form.instance.administrant = request.user
-        super(SubscriptionAdmin, self).save_formset(
+        super(CustomUserAdmin, self).save_formset(
             request, form, formset, change)
-
 
 
 # Now register the new UserAdmin...
