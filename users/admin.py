@@ -14,7 +14,14 @@ class SubscriptionInline(admin.StackedInline):
     extra = 1
     max_num = 1
     fk_name = 'user'
+    exclude = ['administrant']
     inline_classes = ('grp-collapse grp-open',)
+
+    def save_model(self, request, obj, form, change):
+        if not obj.administrant:
+            obj.administrant = request.user
+        super(AdministrantedModelAdmin, self).save_model(
+            request, obj, form, change)
 
 
 class CustomUserAdmin(UserAdmin):
@@ -74,6 +81,13 @@ class CustomUserAdmin(UserAdmin):
             # hide PurchaseInline in the edit view
             if isinstance(inline, SubscriptionInline) and obj is None:
                 yield inline.get_formset(request, obj)
+
+    def save_formset(self, request, form, formset, change):
+        if isinstance(formset, PaymentInlineFormSet):
+            for form in formset.forms:
+                form.instance.administrant = request.user
+        super(SubscriptionAdmin, self).save_formset(
+            request, form, formset, change)
 
 
 
