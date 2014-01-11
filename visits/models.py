@@ -54,8 +54,13 @@ class Subscription(models.Model):
             self.recalculate()
         super(Subscription, self).save(*args, **kwargs)
 
-    #def days(self):
-    #    return (self.expire_date - now).days
+    def days(self):
+        return (self.expire_date - now).days
+
+    def visits(self):
+        if self.plan.daily_fees:
+            return '-'
+        return self.plan.visits - self.visit_set.count()
 
     def daily_fee(self):
         return self.plan.price / self.plan.days

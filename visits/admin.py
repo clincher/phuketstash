@@ -46,7 +46,7 @@ class VisitInline(admin.StackedInline):
 
 
 class SubscriptionAdmin(AdministrantedModelAdmin):
-    list_display = ('user', 'credit', 'administrant', 'plan')
+    list_display = ('user', 'credit', 'administrant', 'plan', 'visits', 'days')
     inlines = [PaymentInline, VisitInline]
     readonly_fields = ['administrant']
 
