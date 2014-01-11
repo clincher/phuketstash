@@ -12,7 +12,7 @@ class EmptyPermittedFormSet(BaseInlineFormSet):
         """
         Override the method to change the form attribute empty_permitted
         """
-        form = super(PaymentInlineFormSet, self)._construct_form(
+        form = super(EmptyPermittedFormSet, self)._construct_form(
             i, **kwargs)
         form.empty_permitted = True
         return form

@@ -32,9 +32,9 @@ class PaymentInline(admin.StackedInline):
 
 
 class VisitInline(admin.StackedInline):
-    model = Payment
+    model = Visit
     extra = 1
-    readonly_fields = ('administrant')
+    readonly_fields = ('administrant',)
     formset = EmptyPermittedFormSet
 
     inline_classes = ('grp-collapse grp-open',)
@@ -46,7 +46,7 @@ class SubscriptionAdmin(AdministrantedModelAdmin):
     readonly_fields = ['administrant']
 
     def save_formset(self, request, form, formset, change):
-        if isinstance(formset, PaymentInlineFormSet):
+        if isinstance(formset, EmptyPermittedFormSet):
             for form in formset.forms:
                 form.instance.administrant = request.user
         super(SubscriptionAdmin, self).save_formset(
