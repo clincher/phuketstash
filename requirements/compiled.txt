@@ -9,5 +9,5 @@ Pillow
 ipython
 pytz
 django_extensions
-
+django-nose
 django-grappelli

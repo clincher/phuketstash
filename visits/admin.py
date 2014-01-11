@@ -32,8 +32,9 @@ class PaymentInline(admin.StackedInline):
 
 
 class SubscriptionAdmin(AdministrantedModelAdmin):
-    list_display = ('user', 'days', 'credit', 'administrant')
+    list_display = ('user', 'credit', 'administrant', 'plan')
     inlines = [PaymentInline]
+    readonly_fields = ['administrant']
 
     def save_formset(self, request, form, formset, change):
         if isinstance(formset, PaymentInlineFormSet):

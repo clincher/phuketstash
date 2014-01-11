@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from datetime import datetime, timedelta
 
+from django.utils.timezone import utc
 from django.conf import settings
 from django.db import models
 from django.db.models import Sum
@@ -8,6 +9,7 @@ from django.dispatch import receiver
 from django.db.models.signals import pre_save, post_save
 
 from utils.annoying import nullable
+now = datetime.utcnow().replace(tzinfo=utc)
 
 
 class Plan(models.Model):
@@ -51,12 +53,15 @@ class Subscription(models.Model):
             self.recalculate()
         super(Subscription, self).save(*args, **kwargs)
 
-    def days(self):
-        return (self.expire_date - self.start_date).days
+    #def days(self):
+    #    return (self.expire_date - now).days
+
+    def daily_fee(self):
+        return self.plan.price / self.plan.days
 
     def recalculate(self):
         if self.plan.daily_fees:
-            daily_fee = self.plan.price / self.plan.days
+            daily_fee = self.daily_fee()
             days = self.payment_set.aggregate(Sum('value')).get(
                 'value__sum', 0) / daily_fee
             self.expire_date = self.start_date + timedelta(days=days)
@@ -64,10 +69,11 @@ class Subscription(models.Model):
             self.expire_date = self.start_date + timedelta(days=self.plan.days)
 
     def credit(self):
-        if self.plan.daily_fees:
+        if not self.plan.daily_fees:
             return self.payment_set.aggregate(Sum('value')).get(
                 'value__sum', 0) - self.plan.price
-        return 0
+        return self.payment_set.aggregate(Sum('value')).get('value__sum', 0) \
+               - (now - self.start_date).days * self.daily_fee()
 
 
 class Payment(models.Model):

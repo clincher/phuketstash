@@ -280,8 +280,8 @@ INTERNAL_IPS = ('127.0.0.1')
 # Set this to true if you use a proxy that sets X-Forwarded-Host
 #USE_X_FORWARDED_HOST = False
 
-SERVER_EMAIL = "webmaster@example.com"
-DEFAULT_FROM_EMAIL = "webmaster@example.com"
+SERVER_EMAIL = "webmaster@phuketstash.com"
+DEFAULT_FROM_EMAIL = "webmaster@phuketstash.com"
 SYSTEM_EMAIL_PREFIX = "[stash]"
 
 ## Log settings
