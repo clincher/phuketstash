@@ -23,6 +23,7 @@ class AdministrantedModelAdmin(admin.ModelAdmin):
 
 
 class PaymentAdmin(AdministrantedModelAdmin):
+    readonly_fields = ['administrant']
     list_display = ('subscription', 'value', 'pay_date')
 
 

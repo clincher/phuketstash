@@ -31,7 +31,8 @@ class Plan(models.Model):
 
 class Subscription(models.Model):
     administrant = models.ForeignKey(
-        settings.AUTH_USER_MODEL, related_name='subscribers')
+        settings.AUTH_USER_MODEL, related_name='subscribers',
+        limit_choices_to={'is_staff': True})
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL, related_name='subscriptions')
     plan = models.ForeignKey(Plan, limit_choices_to={'is_active': True})
@@ -79,7 +80,8 @@ class Subscription(models.Model):
 class Payment(models.Model):
     #TODO: error on try to pay for paid subscr
     administrant = models.ForeignKey(
-        settings.AUTH_USER_MODEL, related_name='payments')
+        settings.AUTH_USER_MODEL, related_name='payments',
+        limit_choices_to={'is_staff': True})
     subscription = models.ForeignKey(Subscription)
     value = models.IntegerField()
     pay_date = models.DateTimeField(default=datetime.now())
@@ -91,7 +93,8 @@ class Payment(models.Model):
 
 class Visit(models.Model):
     administrant = models.ForeignKey(
-        settings.AUTH_USER_MODEL, related_name='visitors')
+        settings.AUTH_USER_MODEL, related_name='visitors',
+        limit_choices_to={'is_staff': True})
     subscription = models.ForeignKey(Subscription)
     arrival_time = models.DateTimeField(default=datetime.now())
     departure_time = models.DateTimeField(**nullable)
