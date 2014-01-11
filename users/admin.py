@@ -69,7 +69,7 @@ class CustomUserAdmin(UserAdmin):
     def get_queryset(self, request):
         qs = super(CustomUserAdmin, self).get_queryset(request)
         if not request.user.is_superuser:
-            qs = qs.filter(is_superuser=False)
+            qs = qs.filter(is_staff=False)
         return qs
 
     def get_readonly_fields(self, request, obj=None):
