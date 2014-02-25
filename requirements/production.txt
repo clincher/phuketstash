@@ -28,29 +28,10 @@ python-memcached
 
 #These dependencies are brought in by django CMS, but if you want to
 # lock-in their version, specify them
-Django==1.6.2
-django-classy-tags==0.4
-South==0.8.4
-html5lib==1.0b3
-django-mptt==0.6
-django-sekizai==0.7
-six==1.5.2
-djangocms-admin-style==0.2
 
 #Optional, recommended packages
-Pillow==2.3.0
-django-filer==0.9.5
-cmsplugin-filer==0.9.5
-django-reversion==1.8
-
 #django cms plugins
-djangocms-link
-djangocms-snippet
-djangocms-style
-djangocms-column
-djangocms-grid
-djangocms-oembed
-djangocms-table
+
 BeautifulSoup==3.2.1
 Django==1.6.2
 Fabric==1.8.1
