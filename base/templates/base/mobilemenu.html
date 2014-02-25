@@ -1,0 +1,7 @@
+{% load menu_tags static %}
+{% for child in children %}
+    <option value="{{ child.attr.redirect_url|default:child.get_absolute_url }}" selected="selected">{{ child.get_menu_title|striptags }}</option>
+    {% if child.children %}
+        {% show_menu from_level to_level extra_inactive extra_active "base/mobilemenu.html" "" "" child %}
+    {% endif %}
+{% endfor %}

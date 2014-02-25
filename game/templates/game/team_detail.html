@@ -1,0 +1,21 @@
+{% extends "_layouts/base.html" %}
+{% block content %}
+<div id="story-wrap">
+    <div id="story-content">
+<p>Вы можете пригласить своих друзей из конакта или фейсбука для участия в игре. Просто отправляйте им ссылку на вступление в вашу команду:
+    <input value="{{ request.get_host }}{% url 'team-join' object.pk %}"/></p>
+    </div>
+</div>
+{% endblock %}
+
+{% block h1 %}
+    <div id="page-title-wrap">
+			<div id="page-title">
+				<div id="page-title-content">Команда {{ object }}
+					<span class="left ornament"></span>
+					<span class="right ornament"></span>
+				</div>
+			</div>
+			<div id="page-title-descr">поздравляем! скоро вы примете участие в игре</div>
+		</div>
+{% endblock %}

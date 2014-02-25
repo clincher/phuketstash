@@ -6,3 +6,158 @@
    css/less/bootstrap.less file.
 
    ========================================================================== */
+
+.gm-style .gm-style-mtc label,
+.gm-style .gm-style-mtc div {
+    font-weight:400
+}
+
+.gm-style .gm-style-cc span,
+.gm-style .gm-style-cc a,
+.gm-style .gm-style-mtc div {
+    font-size:10px
+}
+
+@media print {
+    .gm-style .gmnoprint,
+    .gmnoprint {
+        display:none
+    }
+}
+
+@media screen {
+    .gm-style .gmnoscreen,
+    .gmnoscreen {
+        display:none
+    }
+}
+
+.gm-style{
+    font-family:Roboto,Arial,sans-serif;
+    font-size:11px;
+    font-weight:400;
+    text-decoration:none
+}
+
+body, .column-main-header div.container {
+    background-image: url(../images/brillant.png);
+}
+
+#header {
+    border-bottom-color: rgb(68, 180, 64);
+    background-image: url(../images/gplaypattern.png);
+}
+
+#header-content {
+    background: url(../images/logo.png) top center no-repeat;
+}
+
+#header-content.en {
+    background: url(../images/logo.png) bottom center no-repeat;
+}
+
+#header-telephone span {
+    color: rgb(115, 209, 112);
+}
+
+#scrolltop-img {
+    background-image: url(../images/top5.png);
+}
+
+#prefooter-main-wrap {
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: rgb(68, 180, 64);
+    background-image: url(../images/natural_paper.png);
+    background-position: initial initial;
+    background-repeat: initial initial;
+}
+
+#header-bg {
+    background-image: url(../images/slider_bg5.png);
+}
+
+#slider-bg {
+    background-image: url(../images/slider_bg5.png);
+}
+
+.fb-like-box {
+    background: #fff;
+}
+
+.breadcrumb {
+    font-size: 0.9em;
+}
+
+.breadcrumb li {
+    display: inline;
+    list-style: none;
+}
+
+#vk-img {
+    background-position-x: 27px;
+}
+
+#language-chooser {
+    position: absolute;
+    left: 300px;
+    top: 18px;
+}
+
+#language-chooser a,
+#language-chooser span {
+    background-image: url(../images/languages.png);
+    height: 20px;
+    display: inline-block;
+}
+
+#language-chooser .en {
+    width: 40px;
+}
+
+#language-chooser .ru {
+    width: 30px;
+    background-position-x: 30px;
+}
+
+#header-auth-form {
+    position: absolute;
+    left: 580px;
+    top: 18px;
+    font-family: 'Droid Sans', Arial, sans-serif;
+}
+
+#header-telephone {
+    background: url(../images/phone_icon_green.png) 3px 2px no-repeat;
+}
+
+#page-title-content .ornament {
+    background: url(../images/ornament.png);
+    /*width: 144px;*/
+    position: absolute;
+    top: 0px;
+    width: 90px;
+    height: 54px;
+    opacity: 0.7;
+}
+
+#page-title-content .ornament.left {
+    left: -90px;
+}
+
+#page-title-content .ornament.right {
+    background-position-x: 90px;
+    right: -107px;
+}
+
+a.button {
+    cursor: pointer;
+}
+
+#gmaps {
+    position: relative;
+    background-color: rgb(229, 227, 223);
+    overflow: hidden;
+    -webkit-transform: translateZ(0);
+}
+

@@ -38,6 +38,7 @@ class Subscription(models.Model):
     plan = models.ForeignKey(Plan, limit_choices_to={'is_active': True})
     start_date = models.DateTimeField(default=datetime.now())
     expire_date = models.DateTimeField(**nullable)
+    is_active = models.BooleanField(default=True)
 
     class Meta:
         verbose_name = u'Подписка'

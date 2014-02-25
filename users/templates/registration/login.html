@@ -1,0 +1,19 @@
+{% extends "_layouts/base.html" %}
+{% load cms_tags static %}
+{% block content %}
+  {% for name in social_auth.backends.oauth2 %}
+      <a href="{% url 'socialauth_begin' name %}?{{ redirect_querystring }}"><img src="{% static 'images/social-auth/' %}{{ name }}.png"/></a>
+  {% endfor %}
+{% endblock %}
+
+{% block h1 %}
+    <div id="page-title-wrap">
+			<div id="page-title">
+				<div id="page-title-content">Авторизуйтесь с помощью любой из социальных сетей
+					<span class="left ornament"></span>
+					<span class="right ornament"></span>
+				</div>
+			</div>
+			<div id="page-title-descr">это необходимо для участия в играх</div>
+		</div>
+{% endblock %}

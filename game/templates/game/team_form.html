@@ -1,0 +1,20 @@
+{% extends "_layouts/base.html" %}
+{% block content %}
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <a class="submit button green">Создать команду</a>
+</form>
+{% endblock %}
+
+{% block h1 %}
+    <div id="page-title-wrap">
+			<div id="page-title">
+				<div id="page-title-content">Создать свою команду
+					<span class="left ornament"></span>
+					<span class="right ornament"></span>
+				</div>
+			</div>
+			<div id="page-title-descr">пожалуйста, используйте английские буквы в названии команды</div>
+		</div>
+{% endblock %}

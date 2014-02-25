@@ -1,0 +1,17 @@
+{% extends "_layouts/base.html" %}
+{% load cms_tags %}
+{% block content %}
+  {% placeholder content %}
+{% endblock %}
+
+{% block h1 %}
+    <div id="page-title-wrap">
+			<div id="page-title">
+				<div id="page-title-content">{{ current_page.get_title }}
+					<span class="left ornament"></span>
+					<span class="right ornament"></span>
+				</div>
+			</div>
+			<div id="page-title-descr">{% page_attribute "meta_description" %}</div>
+		</div>
+{% endblock %}

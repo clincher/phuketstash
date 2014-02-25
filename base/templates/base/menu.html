@@ -1,0 +1,12 @@
+{% load menu_tags static %}
+{% for child in children %}
+<li id="menu-item-{{ forloop.counter }}" class="{% if child.selected %} selected{% endif %}{% if child.ancestor %} ancestor{% endif %}{% if child.sibling %} sibling{% endif %}{% if child.descendant %} descendant{% endif %}">
+	<a href="{{ child.attr.redirect_url|default:child.get_absolute_url }}">{{ child.get_menu_title|safe }}</a>
+	{% if child.children %}
+    <ul class="sub-menu">
+        {% show_menu from_level to_level extra_inactive extra_active "base/sub_menu.html" "" "" child %}
+        <img src="{% static 'images/triangle.png' %}" alt="Drop menu arrow" class="drop-triangle" style="display: block;">
+    </ul>
+    {% endif %}
+</li>
+{% endfor %}

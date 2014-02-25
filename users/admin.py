@@ -36,7 +36,7 @@ class CustomUserAdmin(UserAdmin):
     # The fields to be used in displaying the User model.
     # These override the definitions on the base UserAdmin
     # that reference specific fields on auth.User.
-    list_display = ('email', 'is_superuser', 'is_active', 'get_full_name')
+    list_display = ('email', 'get_full_name', 'url')
     list_filter = ('is_superuser',)
     fieldsets = (
         ('', {

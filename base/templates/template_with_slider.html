@@ -1,0 +1,34 @@
+{% extends "_layouts/base.html" %}
+{% load cms_tags %}
+{% block slider %}
+<div id="slider-bg">
+    <div id="slider-align">
+        <div class="slider-wrapper theme-pascal">
+            {% placeholder slider %}
+                    <div id="slider" class="nivoSlider">
+            <img src="./Goodold Restaurant Theme_files/slider1.jpg" alt="slider1" title="" style="width: 910px; visibility: hidden; display: inline;">
+            <img src="./Goodold Restaurant Theme_files/slider2.jpg" alt="slider2" title="Vestibulum tortor" style="width: 910px; visibility: hidden; display: inline;">
+            <img src="./Goodold Restaurant Theme_files/slider3.jpg" alt="slider3" title="Aenean dolet elit" style="width: 910px; visibility: hidden; display: inline;">
+            <img class="nivo-main-image" src="./Goodold Restaurant Theme_files/slider2.jpg" style="height: auto; width: 910px;">
+            <div class="nivo-caption" style="display: block;">
+                <a href="http://vk.com/phuketstash">Vestibulum tortor</a>
+            </div>
+            <div class="nivo-directionNav" style="display: block;">
+                <a class="nivo-prevNav">Prev</a>
+                <a class="nivo-nextNav">Next</a>
+            </div>
+        </div>
+        <div class="nivo-controlNav">
+            <a class="nivo-control" rel="0">1</a>
+            <a class="nivo-control active" rel="1">2</a>
+            <a class="nivo-control" rel="2">3</a>
+        </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+  {% placeholder content %}
+{% endblock %}
