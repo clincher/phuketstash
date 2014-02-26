@@ -753,7 +753,7 @@ body, .column-main-header div {
 
 #menu-header-menu li strong {
 	font-size:1.2em;
-	font-weight:bold;
+	/*font-weight:bold;*/
 	display:inline;
 	font-family:'PT Sans Narrow', sans-serif;
 	text-transform:uppercase;
