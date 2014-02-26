@@ -704,14 +704,14 @@ body, .column-main-header div {
 }
 
 #menu-header-menu {
-	width:930px;
+	width:960px;
 	margin:0px;
-	padding:11px 0px 0px 20px;
+	padding:11px 0px 0px 8px;
 	list-style:none;
 }
 
 #menu-header-menu li {
-	width:143px;
+	width:155px;
 	float:left;
 	text-shadow:0px 0px 3px #dcdbdb;
 }
@@ -732,11 +732,11 @@ body, .column-main-header div {
 }
 
 #menu-item-2 {
-	width:92px;
+	width:138px !important;
 }
 
 #menu-item-3 {
-	margin-right:206px !important;
+	margin-right:209px !important;
 	padding-bottom:20px;
 	width:63px !important;
 }
@@ -744,7 +744,7 @@ body, .column-main-header div {
 #menu-item-4,
 #menu-item-5,
 #menu-item-6 {
-	width:112px !important;
+	width:130px !important;
 }
 
 #menu-item-1 span, #menu-item-2 span, #menu-item-3 span, #menu-item-4 span, #menu-item-5 span, #menu-item-6 span {
