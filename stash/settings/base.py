@@ -216,6 +216,7 @@ TEMPLATE_DIRS = (
 CMS_TEMPLATES = (
     ('template_1.html', 'Template One'),
     ('schedule_template.html', 'Schedule template'),
+    ('story.html', 'Story template'),
 )
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (

@@ -119,15 +119,6 @@
             {% show_breadcrumb "base/breadcrumb.html" %}
 
             <!-- BEGIN SOCIAL -->
-            {% ifequal LANGUAGE_CODE 'en' %}
-                <div class="fb-like" data-href="{{ request.build_absolute_uri }}" data-layout="standard" data-action="recommend" data-show-faces="true" data-share="true"></div>
-                <div class="fb-recommendations" data-width="450" data-app-id="605738149495900" data-site="phuketstash.com" data-action="likes, recommends" data-max-age="35" data-colorscheme="light" data-header="true"></div>
-                <div class="fb-comments" data-width="450" data-numposts="3" data-colorscheme="light"></div>
-            {% else %}
-                <div id="vk_like"></div>
-                <div id="vk_recommended"></div>
-                <div id="vk_comments"></div>
-            {% endifequal %}
             <!-- END SOCIAL -->
         </div>
         <!-- END MAIN CONTENT -->
@@ -139,28 +130,38 @@
                 <a href="#scrolltop" class="scroll"><div id="scrolltop-img"></div></a>
             </div>
             <div id="prefooter-content">
-                <div id="findus">
-                    <div class="preheader">{% trans "how to" %}</div>
-                    <h2>{% trans "find us" %}</h1>
-                    <ul id="find-list">
-                        <li>
-                            <p id="name">Phuket STASH</p>
-                            <p id="address">33/40 moo 7 soi 55, Jaofa, Chalong, Phuket</p>
-                        </li>
-                    </ul>
-                    <div id="gmaps"></div>
-                    <div class="footer-divider responsive-divider"></div>
-                </div>
-                <div id="hours">
-                   <div class="fb-like-box"
-                        data-href="http://www.facebook.com/phuketstash"
-                        data-width="285" data-height="350"
-                        data-colorscheme="dark"
-                        data-show-faces="true"
-                        data-header="true"
-                        data-stream="false"
-                        data-show-border="false">
-                    </div>
+            {% ifequal LANGUAGE_CODE 'en' %}
+                <div class="fb-like" data-href="{{ request.build_absolute_uri }}" data-layout="standard" data-action="recommend" data-show-faces="true" data-share="true"></div>
+{#                <div class="fb-recommendations" data-width="450" data-app-id="605738149495900" data-site="phuketstash.com" data-action="likes, recommends" data-max-age="35" data-colorscheme="light" data-header="true"></div>#}
+                <div class="fb-comments" data-width="450" data-numposts="3" data-colorscheme="light"></div>
+            {% else %}
+                <div id="vk_like"></div>
+{#                <div id="vk_recommended"></div>#}
+                <div id="vk_comments"></div>
+            {% endifequal %}
+{##}
+{#                <div id="findus">#}
+{#                    <div class="preheader">{% trans "how to" %}</div>#}
+{#                    <h2>{% trans "find us" %}</h1>#}
+{#                    <ul id="find-list">#}
+{#                        <li>#}
+{#                            <p id="name">Phuket STASH</p>#}
+{#                            <p id="address">33/40 moo 7 soi 55, Jaofa, Chalong, Phuket</p>#}
+{#                        </li>#}
+{#                    </ul>#}
+{#                    <div id="gmaps"></div>#}
+{#                    <div class="footer-divider responsive-divider"></div>#}
+{#                </div>#}
+{#                <div id="hours">#}
+{#                   <div class="fb-like-box"#}
+{#                        data-href="http://www.facebook.com/phuketstash"#}
+{#                        data-width="285" data-height="350"#}
+{#                        data-colorscheme="dark"#}
+{#                        data-show-faces="true"#}
+{#                        data-header="true"#}
+{#                        data-stream="false"#}
+{#                        data-show-border="false">#}
+{#                    </div>#}
 {#                    <div class="preheader">STASH</div>#}
 {#                    <h2>{% trans "hours" %}</h1>#}
 {#                    <ul id="hours_list">#}
@@ -173,9 +174,9 @@
 {#                        <li style="border-bottom-style: none;"><span class="footer-date">{% trans 'Sunday' %}: </span><span class="time">09:00 A.M. - 11:30 P.M.</span></li>#}
 {#                    </ul>#}
 {#                    <div class="footer-divider"></div>#}
-                </div>
-                <div id="events">
-                    <div id="vk_groups"></div>
+{#                </div>#}
+{#                <div id="events">#}
+{#                    <div id="vk_groups"></div>#}
 {#                    <div class="preheader">{% trans "new posts in" %}</div>#}
 {#                    <h2>{% trans "our blog" %}</h1>#}
 {#                    <div class="event-wrap">#}
@@ -192,7 +193,7 @@
 {#                        <div class="event-readmore"><a href="http://raybreaker.ru/goodold/blogpost.html">Read more ...</a></div>#}
 {#                    </div>#}
 {#                    <div class="footer-divider"></div>#}
-                </div>
+{#                </div>#}
                 <div class="clear"></div>
             </div>
         </div>
