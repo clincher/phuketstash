@@ -2337,7 +2337,7 @@ form label {
 	clear:both;
 	background:url(../../images/natural_paper.png);
 	width:100%;
-	margin-top:180px;
+	margin-top:120px;
 	padding:10px 0 5px 0;
 	border-top:3px solid #B94747;
 	text-align:center;
@@ -2360,7 +2360,8 @@ form label {
 	margin:0 auto;
 	width:960px;
 	padding-left:35px;
-	margin-bottom:70px;
+	margin-top:40px;
+	margin-bottom:40px;
 	text-align:left;
 }
 
