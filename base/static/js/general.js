@@ -1,48 +1,48 @@
 //Google maps initialize function
 
-function initialize() {
-	//---- Code for a small maps located in footer ----
-	var myOptions = {
-		//Coordinates of the map's center
-		center: new google.maps.LatLng(7.836750, 98.334666),
-		//Zoom level
-		zoom: 15,
-		//Type of the map (posible values .HYBRID, .SATELLITE, .ROADMAP, .TERRAIN)
-		mapTypeId: google.maps.MapTypeId.HYBRID
-	};
-	//Define the map and select the element in which it will be displayed
-	var map = new google.maps.Map(document.getElementById("gmaps"),myOptions);
-	var marker = new google.maps.Marker({
-		//Coordinate of the map marker's location
-		position: new google.maps.LatLng(7.836750, 98.334666),
-		map: map,
-		//Text that will be displayed when the mouse hover on the marker
-		title:"Phuket STASH"
-	});
-	//---- Code for a big maps located in contact section ----
-	if (document.getElementById("contact-gmaps")) {
-		var myOptions1 = {
-			//Coordinates of the map's center
-			center: new google.maps.LatLng(7.836750, 98.334666),
-			//Zoom level
-			zoom: 15,
-			//Type of map (possible values .ROADMAP, .HYBRID, .SATELLITE, .TERRAIN)
-			mapTypeId: google.maps.MapTypeId.ROADMAP
-		};
-		//Define the map and select the element in which it will be displayed
-		var map1 = new google.maps.Map(document.getElementById("contact-gmaps"),myOptions1);
-		var marker1 = new google.maps.Marker({
-			//Coordinate of the marker's location
-			position: new google.maps.LatLng(7.836750, 98.334666),
-			map: map1,
-			//Text that will be displayed when the mouse hover on the marker
-			title:"Phuket STASH"
-		});
-	}
-}
+//function initialize() {
+//	//---- Code for a small maps located in footer ----
+//	var myOptions = {
+//		//Coordinates of the map's center
+//		center: new google.maps.LatLng(7.836750, 98.334666),
+//		//Zoom level
+//		zoom: 15,
+//		//Type of the map (posible values .HYBRID, .SATELLITE, .ROADMAP, .TERRAIN)
+//		mapTypeId: google.maps.MapTypeId.HYBRID
+//	};
+//	//Define the map and select the element in which it will be displayed
+//	var map = new google.maps.Map(document.getElementById("gmaps"),myOptions);
+//	var marker = new google.maps.Marker({
+//		//Coordinate of the map marker's location
+//		position: new google.maps.LatLng(7.836750, 98.334666),
+//		map: map,
+//		//Text that will be displayed when the mouse hover on the marker
+//		title:"Phuket STASH"
+//	});
+//	//---- Code for a big maps located in contact section ----
+//	if (document.getElementById("contact-gmaps")) {
+//		var myOptions1 = {
+//			//Coordinates of the map's center
+//			center: new google.maps.LatLng(7.836750, 98.334666),
+//			//Zoom level
+//			zoom: 15,
+//			//Type of map (possible values .ROADMAP, .HYBRID, .SATELLITE, .TERRAIN)
+//			mapTypeId: google.maps.MapTypeId.ROADMAP
+//		};
+//		//Define the map and select the element in which it will be displayed
+//		var map1 = new google.maps.Map(document.getElementById("contact-gmaps"),myOptions1);
+//		var marker1 = new google.maps.Marker({
+//			//Coordinate of the marker's location
+//			position: new google.maps.LatLng(7.836750, 98.334666),
+//			map: map1,
+//			//Text that will be displayed when the mouse hover on the marker
+//			title:"Phuket STASH"
+//		});
+//	}
+//}
 			
 $(window).load(function() {
-	initialize();
+//	initialize();
 	
 	//Main Sliders
 	$('#slider').nivoSlider({
