@@ -113,10 +113,12 @@
             {% block content %}
                 <!-- END OUR STORY -->
             {% endblock %}
-            <div class="three-columns">
+            <div class="clear"></div>
+            <h4>Не забывайте лайкать страницу, если то, что вы прочитали было интересно</h4>
+            <div class="four-columns">
                 <div id="vk_like"></div>
             </div>
-            <div class="three-columns">
+            <div class="four-columns">
                 <div class="fb-like"
                      data-href="{{ request.build_absolute_uri }}"
                      data-layout="standard"
@@ -138,6 +140,7 @@
             <div id="scrolltop-wrap">
                 <a href="#scrolltop" class="scroll"><div id="scrolltop-img"></div></a>
             </div>
+            <h4>Не стесняйтесь задавать вопросы в комментариях к странице</h4>
             <div id="prefooter-content">
             {% ifequal LANGUAGE_CODE 'en' %}
 {#                <div class="fb-recommendations" data-width="450" data-app-id="605738149495900" data-site="phuketstash.com" data-action="likes, recommends" data-max-age="35" data-colorscheme="light" data-header="true"></div>#}
