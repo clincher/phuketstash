@@ -1,0 +1,2263 @@
+[
+{
+  "pk": 1,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-16T19:04:45.866Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-16T19:04:45.860Z",
+    "lft": 1,
+    "tree_id": 1,
+    "position": null,
+    "placeholder": 1,
+    "plugin_type": "PlaceholderPlugin"
+  }
+},
+{
+  "pk": 6,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 6,
+    "changed_date": "2014-02-25T16:47:02.785Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-16T19:27:49.711Z",
+    "lft": 1,
+    "tree_id": 6,
+    "position": 0,
+    "placeholder": 11,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 12,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T04:11:48.793Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-17T11:23:34.787Z",
+    "lft": 1,
+    "tree_id": 8,
+    "position": 0,
+    "placeholder": 12,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 13,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T18:39:24.372Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-17T11:23:38.710Z",
+    "lft": 1,
+    "tree_id": 9,
+    "position": 0,
+    "placeholder": 12,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 17,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 4,
+    "changed_date": "2014-02-17T11:31:13.827Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-17T11:27:21.684Z",
+    "lft": 1,
+    "tree_id": 13,
+    "position": 0,
+    "placeholder": 11,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 22,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-17T11:31:11.481Z",
+    "parent": 17,
+    "language": "en",
+    "level": 1,
+    "creation_date": "2014-02-17T11:31:01.528Z",
+    "lft": 2,
+    "tree_id": 13,
+    "position": 0,
+    "placeholder": 11,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 23,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-17T11:32:44.622Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-17T11:31:27.312Z",
+    "lft": 1,
+    "tree_id": 16,
+    "position": 0,
+    "placeholder": 4,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 27,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-17T11:32:44.614Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-17T11:32:24.622Z",
+    "lft": 1,
+    "tree_id": 19,
+    "position": 1,
+    "placeholder": 4,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 50,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:25:18.028Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:25:17.989Z",
+    "lft": 1,
+    "tree_id": 36,
+    "position": 0,
+    "placeholder": 21,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 51,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 10,
+    "changed_date": "2014-02-23T18:54:22.469Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:25:19.171Z",
+    "lft": 1,
+    "tree_id": 37,
+    "position": 0,
+    "placeholder": 21,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 52,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:25:25.276Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:25:17.989Z",
+    "lft": 1,
+    "tree_id": 38,
+    "position": 0,
+    "placeholder": 22,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 54,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:45:44.530Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:45:44.521Z",
+    "lft": 1,
+    "tree_id": 40,
+    "position": 0,
+    "placeholder": 23,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 55,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T18:52:23.670Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:45:45.586Z",
+    "lft": 1,
+    "tree_id": 41,
+    "position": 0,
+    "placeholder": 23,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 58,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:45:48.798Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:45:48.787Z",
+    "lft": 1,
+    "tree_id": 44,
+    "position": 0,
+    "placeholder": 25,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 59,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 4,
+    "changed_date": "2014-02-25T03:14:05.030Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:45:49.894Z",
+    "lft": 1,
+    "tree_id": 45,
+    "position": 0,
+    "placeholder": 25,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 60,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:45:51.354Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:45:51.336Z",
+    "lft": 1,
+    "tree_id": 46,
+    "position": 0,
+    "placeholder": 26,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 61,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T20:51:47.265Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:45:52.199Z",
+    "lft": 1,
+    "tree_id": 47,
+    "position": 0,
+    "placeholder": 26,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 62,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:45:58.220Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:45:44.521Z",
+    "lft": 1,
+    "tree_id": 48,
+    "position": 0,
+    "placeholder": 27,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 66,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:46:18.474Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:45:48.787Z",
+    "lft": 1,
+    "tree_id": 52,
+    "position": 0,
+    "placeholder": 29,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 68,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:46:25.819Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:45:51.336Z",
+    "lft": 1,
+    "tree_id": 54,
+    "position": 0,
+    "placeholder": 30,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 70,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:50:10.315Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:50:10.301Z",
+    "lft": 1,
+    "tree_id": 56,
+    "position": 0,
+    "placeholder": 31,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 71,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-25T15:30:43.682Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:50:11.380Z",
+    "lft": 1,
+    "tree_id": 57,
+    "position": 0,
+    "placeholder": 31,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 73,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:51:17.293Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:50:10.301Z",
+    "lft": 1,
+    "tree_id": 59,
+    "position": 0,
+    "placeholder": 32,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 74,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:53:45.312Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:53:45.306Z",
+    "lft": 1,
+    "tree_id": 60,
+    "position": 0,
+    "placeholder": 33,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 75,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T18:57:32.759Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:53:46.400Z",
+    "lft": 1,
+    "tree_id": 61,
+    "position": 0,
+    "placeholder": 33,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 78,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:55:54.870Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:55:54.863Z",
+    "lft": 1,
+    "tree_id": 64,
+    "position": 0,
+    "placeholder": 35,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 79,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T20:45:45.668Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:55:56.174Z",
+    "lft": 1,
+    "tree_id": 65,
+    "position": 0,
+    "placeholder": 35,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 80,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:55:59.672Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:55:54.863Z",
+    "lft": 1,
+    "tree_id": 66,
+    "position": 0,
+    "placeholder": 36,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 82,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:57:55.023Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:57:55.014Z",
+    "lft": 1,
+    "tree_id": 68,
+    "position": 0,
+    "placeholder": 37,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 83,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 4,
+    "changed_date": "2014-02-23T21:02:11.119Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:57:56.127Z",
+    "lft": 1,
+    "tree_id": 69,
+    "position": 0,
+    "placeholder": 37,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 86,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:59:27.170Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:59:27.162Z",
+    "lft": 1,
+    "tree_id": 72,
+    "position": 0,
+    "placeholder": 39,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 87,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T19:13:52.060Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:59:28.180Z",
+    "lft": 1,
+    "tree_id": 73,
+    "position": 0,
+    "placeholder": 39,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 88,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T20:59:34.314Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:59:27.162Z",
+    "lft": 1,
+    "tree_id": 74,
+    "position": 0,
+    "placeholder": 40,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 91,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T21:03:02.163Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T21:03:02.154Z",
+    "lft": 1,
+    "tree_id": 77,
+    "position": 0,
+    "placeholder": 41,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 92,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 4,
+    "changed_date": "2014-02-23T18:41:31.374Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T21:03:03.299Z",
+    "lft": 1,
+    "tree_id": 78,
+    "position": 0,
+    "placeholder": 41,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 93,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T21:03:04.616Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T21:03:04.600Z",
+    "lft": 1,
+    "tree_id": 79,
+    "position": 0,
+    "placeholder": 42,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 94,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-25T03:10:50.144Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T21:03:05.967Z",
+    "lft": 1,
+    "tree_id": 80,
+    "position": 0,
+    "placeholder": 42,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 108,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-20T21:19:58.351Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T21:19:58.344Z",
+    "lft": 1,
+    "tree_id": 91,
+    "position": 0,
+    "placeholder": 45,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 109,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-25T03:09:04.049Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T21:19:59.508Z",
+    "lft": 1,
+    "tree_id": 92,
+    "position": 0,
+    "placeholder": 45,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 118,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-22T03:17:08.651Z",
+    "parent": 51,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-22T03:10:04.665Z",
+    "lft": 2,
+    "tree_id": 37,
+    "position": 1,
+    "placeholder": 21,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 121,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 9,
+    "changed_date": "2014-02-22T03:26:41.139Z",
+    "parent": 51,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-22T03:25:57.299Z",
+    "lft": 8,
+    "tree_id": 37,
+    "position": 1,
+    "placeholder": 21,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 127,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-22T03:59:05.101Z",
+    "parent": 59,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-22T03:58:06.424Z",
+    "lft": 2,
+    "tree_id": 45,
+    "position": 0,
+    "placeholder": 25,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 130,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-22T13:25:27.253Z",
+    "parent": 92,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-22T13:24:51.209Z",
+    "lft": 2,
+    "tree_id": 78,
+    "position": 0,
+    "placeholder": 41,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 137,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T04:12:46.818Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-17T11:23:34.787Z",
+    "lft": 1,
+    "tree_id": 109,
+    "position": 0,
+    "placeholder": 15,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 148,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:34:18.217Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T05:34:18.186Z",
+    "lft": 1,
+    "tree_id": 118,
+    "position": 0,
+    "placeholder": 47,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 149,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 48,
+    "changed_date": "2014-02-23T21:45:35.885Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T05:34:19.364Z",
+    "lft": 1,
+    "tree_id": 119,
+    "position": 0,
+    "placeholder": 47,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 150,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:34:33.770Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T05:34:18.186Z",
+    "lft": 1,
+    "tree_id": 120,
+    "position": 0,
+    "placeholder": 48,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 152,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:36:09.386Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:53:45.306Z",
+    "lft": 1,
+    "tree_id": 122,
+    "position": 0,
+    "placeholder": 34,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 154,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:36:25.150Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T21:03:02.154Z",
+    "lft": 1,
+    "tree_id": 124,
+    "position": 0,
+    "placeholder": 43,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 155,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:36:30.376Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T21:03:04.600Z",
+    "lft": 1,
+    "tree_id": 125,
+    "position": 0,
+    "placeholder": 44,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 156,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:36:38.243Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T21:19:58.344Z",
+    "lft": 1,
+    "tree_id": 126,
+    "position": 0,
+    "placeholder": 46,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 158,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:42:50.552Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T05:42:50.544Z",
+    "lft": 1,
+    "tree_id": 128,
+    "position": 0,
+    "placeholder": 49,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 159,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:42:51.673Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T05:42:51.665Z",
+    "lft": 1,
+    "tree_id": 129,
+    "position": 0,
+    "placeholder": 49,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 162,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:44:51.816Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T05:44:51.809Z",
+    "lft": 1,
+    "tree_id": 132,
+    "position": 0,
+    "placeholder": 51,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 163,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T18:55:04.081Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T05:44:53.026Z",
+    "lft": 1,
+    "tree_id": 133,
+    "position": 0,
+    "placeholder": 51,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 166,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:46:45.817Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T05:46:45.810Z",
+    "lft": 1,
+    "tree_id": 136,
+    "position": 0,
+    "placeholder": 53,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 167,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-25T03:07:29.169Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T05:46:47.002Z",
+    "lft": 1,
+    "tree_id": 137,
+    "position": 0,
+    "placeholder": 53,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 168,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:46:52.618Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T05:46:45.810Z",
+    "lft": 1,
+    "tree_id": 138,
+    "position": 0,
+    "placeholder": 54,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 170,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:53:37.590Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T05:53:37.582Z",
+    "lft": 1,
+    "tree_id": 140,
+    "position": 0,
+    "placeholder": 57,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 171,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T18:44:46.669Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T05:56:56.070Z",
+    "lft": 1,
+    "tree_id": 141,
+    "position": 0,
+    "placeholder": 57,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 173,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T05:59:32.097Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T05:53:37.582Z",
+    "lft": 1,
+    "tree_id": 143,
+    "position": 0,
+    "placeholder": 58,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 175,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T06:02:37.762Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T06:02:37.748Z",
+    "lft": 1,
+    "tree_id": 145,
+    "position": 0,
+    "placeholder": 59,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 176,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T06:02:39.354Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T06:02:39.346Z",
+    "lft": 1,
+    "tree_id": 146,
+    "position": 0,
+    "placeholder": 59,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 179,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T06:03:05.555Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T06:03:05.546Z",
+    "lft": 1,
+    "tree_id": 149,
+    "position": 0,
+    "placeholder": 55,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 180,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 4,
+    "changed_date": "2014-02-23T20:49:51.547Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T06:03:06.686Z",
+    "lft": 1,
+    "tree_id": 150,
+    "position": 0,
+    "placeholder": 55,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 181,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T06:03:07.775Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T06:03:07.763Z",
+    "lft": 1,
+    "tree_id": 151,
+    "position": 0,
+    "placeholder": 56,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 182,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T19:44:19.054Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T06:03:08.800Z",
+    "lft": 1,
+    "tree_id": 152,
+    "position": 0,
+    "placeholder": 56,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 183,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T06:03:13.441Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T06:03:05.546Z",
+    "lft": 1,
+    "tree_id": 153,
+    "position": 0,
+    "placeholder": 61,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 185,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T06:03:26.267Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T06:03:07.763Z",
+    "lft": 1,
+    "tree_id": 155,
+    "position": 0,
+    "placeholder": 62,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 187,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T06:13:20.360Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T06:13:20.352Z",
+    "lft": 1,
+    "tree_id": 157,
+    "position": 0,
+    "placeholder": 63,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 188,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T06:13:21.433Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T06:13:21.426Z",
+    "lft": 1,
+    "tree_id": 158,
+    "position": 0,
+    "placeholder": 63,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 199,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T09:56:30.097Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-17T11:31:27.312Z",
+    "lft": 1,
+    "tree_id": 169,
+    "position": 0,
+    "placeholder": 5,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 200,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T09:56:30.128Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-17T11:32:24.622Z",
+    "lft": 1,
+    "tree_id": 170,
+    "position": 1,
+    "placeholder": 5,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 201,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 4,
+    "changed_date": "2014-02-23T09:56:30.192Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-17T11:27:21.684Z",
+    "lft": 1,
+    "tree_id": 171,
+    "position": 0,
+    "placeholder": 14,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 202,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-23T09:56:30.168Z",
+    "parent": 201,
+    "language": "en",
+    "level": 1,
+    "creation_date": "2014-02-17T11:31:01.528Z",
+    "lft": 2,
+    "tree_id": 171,
+    "position": 0,
+    "placeholder": 14,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 206,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 4,
+    "changed_date": "2014-02-23T18:41:34.890Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T21:03:03.299Z",
+    "lft": 1,
+    "tree_id": 175,
+    "position": 0,
+    "placeholder": 43,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 207,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-23T18:41:34.852Z",
+    "parent": 206,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-22T13:24:51.209Z",
+    "lft": 2,
+    "tree_id": 175,
+    "position": 0,
+    "placeholder": 43,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 208,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T18:48:01.512Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T05:56:56.070Z",
+    "lft": 1,
+    "tree_id": 176,
+    "position": 0,
+    "placeholder": 58,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 214,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T18:52:49.397Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:45:45.586Z",
+    "lft": 1,
+    "tree_id": 179,
+    "position": 0,
+    "placeholder": 27,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 215,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 6,
+    "changed_date": "2014-02-23T18:54:27.079Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:25:19.171Z",
+    "lft": 1,
+    "tree_id": 180,
+    "position": 0,
+    "placeholder": 22,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 216,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-23T18:54:27.015Z",
+    "parent": 215,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-22T03:10:04.665Z",
+    "lft": 2,
+    "tree_id": 180,
+    "position": 1,
+    "placeholder": 22,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 217,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 5,
+    "changed_date": "2014-02-23T18:54:27.035Z",
+    "parent": 215,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-22T03:25:57.299Z",
+    "lft": 4,
+    "tree_id": 180,
+    "position": 1,
+    "placeholder": 22,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 219,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T18:57:36.118Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:53:46.400Z",
+    "lft": 1,
+    "tree_id": 182,
+    "position": 0,
+    "placeholder": 34,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 222,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T19:08:47.889Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T05:44:51.809Z",
+    "lft": 1,
+    "tree_id": 185,
+    "position": 0,
+    "placeholder": 52,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 223,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T19:08:54.951Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T05:44:53.026Z",
+    "lft": 1,
+    "tree_id": 186,
+    "position": 0,
+    "placeholder": 52,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 224,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T19:08:59.593Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T05:42:50.544Z",
+    "lft": 1,
+    "tree_id": 187,
+    "position": 0,
+    "placeholder": 50,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 225,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T19:09:02.734Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T05:42:51.665Z",
+    "lft": 1,
+    "tree_id": 188,
+    "position": 0,
+    "placeholder": 50,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 226,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T19:09:06.685Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T06:02:37.748Z",
+    "lft": 1,
+    "tree_id": 189,
+    "position": 0,
+    "placeholder": 60,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 227,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T19:09:10.111Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T06:02:39.346Z",
+    "lft": 1,
+    "tree_id": 190,
+    "position": 0,
+    "placeholder": 60,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 229,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T19:13:56.042Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:59:28.180Z",
+    "lft": 1,
+    "tree_id": 192,
+    "position": 0,
+    "placeholder": 40,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 230,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T19:42:43.163Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-23T06:13:20.352Z",
+    "lft": 1,
+    "tree_id": 193,
+    "position": 0,
+    "placeholder": 64,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 231,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T19:42:45.045Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T06:13:21.426Z",
+    "lft": 1,
+    "tree_id": 194,
+    "position": 0,
+    "placeholder": 64,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 232,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T19:44:57.914Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T06:03:08.800Z",
+    "lft": 1,
+    "tree_id": 195,
+    "position": 0,
+    "placeholder": 62,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 234,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T20:46:08.649Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:55:56.174Z",
+    "lft": 1,
+    "tree_id": 197,
+    "position": 0,
+    "placeholder": 36,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 235,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-23T20:48:26.661Z",
+    "parent": 180,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T20:47:44.284Z",
+    "lft": 2,
+    "tree_id": 150,
+    "position": 0,
+    "placeholder": 55,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 236,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 4,
+    "changed_date": "2014-02-23T20:49:57.132Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T06:03:06.686Z",
+    "lft": 1,
+    "tree_id": 198,
+    "position": 0,
+    "placeholder": 61,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 237,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-23T20:49:57.108Z",
+    "parent": 236,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T20:47:44.284Z",
+    "lft": 2,
+    "tree_id": 198,
+    "position": 0,
+    "placeholder": 61,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 238,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-23T20:51:51.527Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:45:52.199Z",
+    "lft": 1,
+    "tree_id": 199,
+    "position": 0,
+    "placeholder": 30,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 240,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-23T20:56:11.234Z",
+    "parent": 83,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T20:54:47.931Z",
+    "lft": 2,
+    "tree_id": 69,
+    "position": 0,
+    "placeholder": 37,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 244,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 5,
+    "changed_date": "2014-02-23T21:25:02.605Z",
+    "parent": 149,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:24:54.181Z",
+    "lft": 4,
+    "tree_id": 119,
+    "position": 1,
+    "placeholder": 47,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 246,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 9,
+    "changed_date": "2014-02-23T21:43:14.883Z",
+    "parent": 149,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:27:07.905Z",
+    "lft": 8,
+    "tree_id": 119,
+    "position": 2,
+    "placeholder": 47,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 247,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 9,
+    "changed_date": "2014-02-23T21:43:14.888Z",
+    "parent": 149,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:28:05.203Z",
+    "lft": 8,
+    "tree_id": 119,
+    "position": 3,
+    "placeholder": 47,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 249,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 13,
+    "changed_date": "2014-02-23T21:43:15.051Z",
+    "parent": 149,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:28:28.112Z",
+    "lft": 12,
+    "tree_id": 119,
+    "position": 4,
+    "placeholder": 47,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 251,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 15,
+    "changed_date": "2014-02-23T21:43:15.216Z",
+    "parent": 149,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:28:50.246Z",
+    "lft": 14,
+    "tree_id": 119,
+    "position": 5,
+    "placeholder": 47,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 253,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 19,
+    "changed_date": "2014-02-23T21:43:15.358Z",
+    "parent": 149,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:29:13.520Z",
+    "lft": 18,
+    "tree_id": 119,
+    "position": 6,
+    "placeholder": 47,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 255,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 21,
+    "changed_date": "2014-02-23T21:43:15.490Z",
+    "parent": 149,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:29:40.249Z",
+    "lft": 20,
+    "tree_id": 119,
+    "position": 7,
+    "placeholder": 47,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 257,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 23,
+    "changed_date": "2014-02-23T21:43:15.604Z",
+    "parent": 149,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:30:04.063Z",
+    "lft": 22,
+    "tree_id": 119,
+    "position": 8,
+    "placeholder": 47,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 259,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 27,
+    "changed_date": "2014-02-23T21:43:15.706Z",
+    "parent": 149,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:30:29.434Z",
+    "lft": 26,
+    "tree_id": 119,
+    "position": 9,
+    "placeholder": 47,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 261,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 29,
+    "changed_date": "2014-02-23T21:43:15.790Z",
+    "parent": 149,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:30:52.998Z",
+    "lft": 28,
+    "tree_id": 119,
+    "position": 10,
+    "placeholder": 47,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 263,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 31,
+    "changed_date": "2014-02-23T21:43:15.857Z",
+    "parent": 149,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:31:15.017Z",
+    "lft": 30,
+    "tree_id": 119,
+    "position": 11,
+    "placeholder": 47,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 264,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 24,
+    "changed_date": "2014-02-23T21:45:40.788Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T05:34:19.364Z",
+    "lft": 1,
+    "tree_id": 202,
+    "position": 0,
+    "placeholder": 48,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 265,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-23T21:45:40.418Z",
+    "parent": 264,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:24:54.181Z",
+    "lft": 2,
+    "tree_id": 202,
+    "position": 1,
+    "placeholder": 48,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 266,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 5,
+    "changed_date": "2014-02-23T21:45:40.445Z",
+    "parent": 264,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:27:07.905Z",
+    "lft": 4,
+    "tree_id": 202,
+    "position": 2,
+    "placeholder": 48,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 267,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 7,
+    "changed_date": "2014-02-23T21:45:40.521Z",
+    "parent": 264,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:28:05.203Z",
+    "lft": 6,
+    "tree_id": 202,
+    "position": 3,
+    "placeholder": 48,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 268,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 9,
+    "changed_date": "2014-02-23T21:45:40.541Z",
+    "parent": 264,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:28:28.112Z",
+    "lft": 8,
+    "tree_id": 202,
+    "position": 4,
+    "placeholder": 48,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 269,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 11,
+    "changed_date": "2014-02-23T21:45:40.563Z",
+    "parent": 264,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:28:50.246Z",
+    "lft": 10,
+    "tree_id": 202,
+    "position": 5,
+    "placeholder": 48,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 270,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 13,
+    "changed_date": "2014-02-23T21:45:40.582Z",
+    "parent": 264,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:29:13.520Z",
+    "lft": 12,
+    "tree_id": 202,
+    "position": 6,
+    "placeholder": 48,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 271,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 15,
+    "changed_date": "2014-02-23T21:45:40.598Z",
+    "parent": 264,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:29:40.249Z",
+    "lft": 14,
+    "tree_id": 202,
+    "position": 7,
+    "placeholder": 48,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 272,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 17,
+    "changed_date": "2014-02-23T21:45:40.620Z",
+    "parent": 264,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:30:04.063Z",
+    "lft": 16,
+    "tree_id": 202,
+    "position": 8,
+    "placeholder": 48,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 273,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 19,
+    "changed_date": "2014-02-23T21:45:40.641Z",
+    "parent": 264,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:30:29.434Z",
+    "lft": 18,
+    "tree_id": 202,
+    "position": 9,
+    "placeholder": 48,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 274,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 21,
+    "changed_date": "2014-02-23T21:45:40.660Z",
+    "parent": 264,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:30:52.998Z",
+    "lft": 20,
+    "tree_id": 202,
+    "position": 10,
+    "placeholder": 48,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 275,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 23,
+    "changed_date": "2014-02-23T21:45:40.677Z",
+    "parent": 264,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T21:31:15.017Z",
+    "lft": 22,
+    "tree_id": 202,
+    "position": 11,
+    "placeholder": 48,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 277,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-24T05:56:52.913Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-17T11:23:38.710Z",
+    "lft": 1,
+    "tree_id": 204,
+    "position": 0,
+    "placeholder": 15,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 279,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-25T03:07:32.944Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-23T05:46:47.002Z",
+    "lft": 1,
+    "tree_id": 206,
+    "position": 0,
+    "placeholder": 54,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 280,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-25T03:09:13.799Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T21:19:59.508Z",
+    "lft": 1,
+    "tree_id": 207,
+    "position": 0,
+    "placeholder": 46,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 281,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-25T03:11:12.009Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T21:03:05.967Z",
+    "lft": 1,
+    "tree_id": 208,
+    "position": 0,
+    "placeholder": 44,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 282,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 4,
+    "changed_date": "2014-02-25T03:14:45.870Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:45:49.894Z",
+    "lft": 1,
+    "tree_id": 209,
+    "position": 0,
+    "placeholder": 29,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 283,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-25T03:14:45.837Z",
+    "parent": 282,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-22T03:58:06.424Z",
+    "lft": 2,
+    "tree_id": 209,
+    "position": 0,
+    "placeholder": 29,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 285,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 4,
+    "changed_date": "2014-02-25T05:02:46.752Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:57:56.127Z",
+    "lft": 1,
+    "tree_id": 211,
+    "position": 0,
+    "placeholder": 38,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 286,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 3,
+    "changed_date": "2014-02-25T05:02:46.721Z",
+    "parent": 285,
+    "language": "ru",
+    "level": 1,
+    "creation_date": "2014-02-23T20:54:47.931Z",
+    "lft": 2,
+    "tree_id": 211,
+    "position": 0,
+    "placeholder": 38,
+    "plugin_type": "FilerImagePlugin"
+  }
+},
+{
+  "pk": 287,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-25T05:03:03.013Z",
+    "parent": null,
+    "language": "en",
+    "level": 0,
+    "creation_date": "2014-02-20T20:57:55.014Z",
+    "lft": 1,
+    "tree_id": 212,
+    "position": 0,
+    "placeholder": 38,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 288,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-25T15:32:10.315Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-20T20:50:11.380Z",
+    "lft": 1,
+    "tree_id": 213,
+    "position": 0,
+    "placeholder": 32,
+    "plugin_type": "TextPlugin"
+  }
+},
+{
+  "pk": 289,
+  "model": "cms.cmsplugin",
+  "fields": {
+    "rght": 2,
+    "changed_date": "2014-02-25T16:47:05.882Z",
+    "parent": null,
+    "language": "ru",
+    "level": 0,
+    "creation_date": "2014-02-16T19:27:49.711Z",
+    "lft": 1,
+    "tree_id": 214,
+    "position": 0,
+    "placeholder": 14,
+    "plugin_type": "TextPlugin"
+  }
+}
+]

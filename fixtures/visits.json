@@ -1,0 +1,183 @@
+[
+
+{
+  "pk": 1,
+  "model": "visits.plan",
+  "fields": {
+    "comment": "",
+    "name": "\u0420\u0430\u0437\u043e\u0432\u043e\u0435 \u043f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435",
+    "price": 200,
+    "is_active": true,
+    "days": 1,
+    "visits": 1,
+    "daily_fees": false
+  }
+},
+{
+  "pk": 2,
+  "model": "visits.plan",
+  "fields": {
+    "comment": "",
+    "name": "\u0410\u0431\u043e\u043d\u0435\u043c\u0435\u043d\u0442 \u0432 \u043a\u043e\u0432\u043e\u0440\u043a\u0438\u043d\u0433",
+    "price": 3000,
+    "is_active": true,
+    "days": 30,
+    "visits": 30,
+    "daily_fees": true
+  }
+},
+{
+  "pk": 3,
+  "model": "visits.plan",
+  "fields": {
+    "comment": "",
+    "name": "\u0410\u0431\u043e\u043d\u0435\u043c\u0435\u043d\u0442 \u0432 \u043a\u043e\u0432\u043e\u0440\u043a\u0438\u043d\u0433 \u0441 \u043b\u043e\u043a\u0435\u0440\u043e\u043c",
+    "price": 3500,
+    "is_active": true,
+    "days": 30,
+    "visits": 30,
+    "daily_fees": true
+  }
+},
+{
+  "pk": 5,
+  "model": "visits.plan",
+  "fields": {
+    "comment": "",
+    "name": "\u041e\u0431\u044b\u0447\u043d\u044b\u0439 \u0430\u0431\u043e\u043d\u0435\u043c\u0435\u043d\u0442",
+    "price": 1000,
+    "is_active": true,
+    "days": 45,
+    "visits": 10,
+    "daily_fees": false
+  }
+},
+{
+  "pk": 6,
+  "model": "visits.plan",
+  "fields": {
+    "comment": "",
+    "name": "\u0414\u043e\u0440\u043c",
+    "price": 1000,
+    "is_active": true,
+    "days": 10,
+    "visits": 10,
+    "daily_fees": true
+  }
+},
+{
+  "pk": 7,
+  "model": "visits.plan",
+  "fields": {
+    "comment": "",
+    "name": "\u0414\u043e\u0440\u043c \u0441 \u043b\u043e\u043a\u0435\u0440\u043e\u043c",
+    "price": 1200,
+    "is_active": true,
+    "days": 10,
+    "visits": 10,
+    "daily_fees": true
+  }
+},
+{
+  "pk": 8,
+  "model": "visits.plan",
+  "fields": {
+    "comment": "",
+    "name": "all inclusive (dorm+locker+coworking)",
+    "price": 5000,
+    "is_active": true,
+    "days": 30,
+    "visits": 30,
+    "daily_fees": true
+  }
+},
+{
+  "pk": 10,
+  "model": "visits.plan",
+  "fields": {
+    "comment": "",
+    "name": "checkin (foursquare, facebook, couchsurfing)",
+    "price": 0,
+    "is_active": true,
+    "days": 1,
+    "visits": 1,
+    "daily_fees": false
+  }
+},
+
+{
+  "pk": 1,
+  "model": "visits.subscription",
+  "fields": {
+    "administrant": 1,
+    "is_active": false,
+    "user": 4,
+    "expire_date": "2014-01-22T12:45:55Z",
+    "start_date": "2014-01-08T12:45:55Z",
+    "plan": 6
+  }
+},
+{
+  "pk": 2,
+  "model": "visits.subscription",
+  "fields": {
+    "administrant": 1,
+    "is_active": false,
+    "user": 3,
+    "expire_date": "2014-01-12T09:31:02Z",
+    "start_date": "2014-01-11T09:31:02Z",
+    "plan": 5
+  }
+},
+{
+  "pk": 1,
+  "model": "visits.payment",
+  "fields": {
+    "pay_date": "2014-01-08T12:45:55Z",
+    "value": 1000,
+    "administrant": 2,
+    "subscription": 1
+  }
+},
+{
+  "pk": 2,
+  "model": "visits.payment",
+  "fields": {
+    "pay_date": "2014-01-09T18:17:37Z",
+    "value": 100,
+    "administrant": 2,
+    "subscription": 1
+  }
+},
+{
+  "pk": 3,
+  "model": "visits.payment",
+  "fields": {
+    "pay_date": "2014-01-09T18:20:53Z",
+    "value": 200,
+    "administrant": 2,
+    "subscription": 1
+  }
+},
+{
+  "pk": 4,
+  "model": "visits.payment",
+  "fields": {
+    "pay_date": "2014-01-09T20:49:45.983Z",
+    "value": 100,
+    "administrant": 1,
+    "subscription": 1
+  }
+},
+{
+  "pk": 1,
+  "model": "visits.visit",
+  "fields": {
+    "arrival_time": "2014-01-11T09:31:02Z",
+    "pastimes": [],
+    "departure_time": null,
+    "administrant": 1,
+    "subscription": 2
+  }
+}
+]

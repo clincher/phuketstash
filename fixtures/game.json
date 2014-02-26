@@ -1,0 +1,93 @@
+[
+
+{
+  "pk": 1,
+  "model": "game.game",
+  "fields": {
+    "start_date": "2014-03-01",
+    "finish_date": "2014-02-02",
+    "is_active": true,
+    "name": "PHUKET STASH GAME #1",
+    "desc": "\u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0438 \u0432\u0441\u0435 \u0442\u0430\u043a\u043e\u0435"
+  }
+},
+
+{
+  "pk": 1,
+  "model": "game.team",
+  "fields": {
+    "owner": 1,
+    "is_paid": false,
+    "game": 1,
+    "name": "Orcs"
+  }
+},
+{
+  "pk": 2,
+  "model": "game.team",
+  "fields": {
+    "owner": 1,
+    "is_paid": false,
+    "game": 1,
+    "name": "Orcs"
+  }
+},
+{
+  "pk": 3,
+  "model": "game.team",
+  "fields": {
+    "owner": 1,
+    "is_paid": false,
+    "game": 1,
+    "name": "Orcs"
+  }
+},
+{
+  "pk": 4,
+  "model": "game.team",
+  "fields": {
+    "owner": 1,
+    "is_paid": false,
+    "game": 1,
+    "name": "Orcs"
+  }
+},
+{
+  "pk": 5,
+  "model": "game.team",
+  "fields": {
+    "owner": 1,
+    "is_paid": false,
+    "game": 1,
+    "name": "Orcs"
+  }
+},
+{
+  "pk": 6,
+  "model": "game.team",
+  "fields": {
+    "owner": 1,
+    "is_paid": false,
+    "game": 1,
+    "name": "Orcs2"
+  }
+},
+{
+  "pk": 7,
+  "model": "game.team",
+  "fields": {
+    "owner": 1,
+    "is_paid": false,
+    "game": 1,
+    "name": "Orcs2"
+  }
+},
+{
+  "pk": 1,
+  "model": "game.member",
+  "fields": {
+    "user": 1,
+    "team": 1
+  }
+}
+]

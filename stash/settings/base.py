@@ -32,7 +32,7 @@ SUPPORTED_NONLOCALES = ['media', 'admin', 'static']
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
 LANGUAGES = [
     ('en', u'English'),
@@ -386,12 +386,7 @@ if DEBUG:
 
 # oauth-tokens settings
 OAUTH_TOKENS_HISTORY = True
-OAUTH_TOKENS_VKONTAKTE_CLIENT_ID = '3969992'
-OAUTH_TOKENS_VKONTAKTE_CLIENT_SECRET = 'nxlTVjc5nUqRMScN1oSo'
 OAUTH_TOKENS_VKONTAKTE_SCOPE = ['friends', 'offline']
-OAUTH_TOKENS_VKONTAKTE_USERNAME = 'va.bolshakov@gmail.com'
-OAUTH_TOKENS_VKONTAKTE_PASSWORD = '097054Hq'
-OAUTH_TOKENS_VKONTAKTE_PHONE_END = '1725'
 
 
 #CKEditor settings
@@ -439,11 +434,6 @@ AUTHENTICATION_BACKENDS = (
     'social_auth.backends.facebook.FacebookBackend',
     'social_auth.backends.contrib.vk.VKOAuth2Backend',
 )
-
-FACEBOOK_APP_ID              = '605738149495900'
-FACEBOOK_API_SECRET          = '0d78f20f569a0ddf5ee47ec85d5330cf'
-VK_APP_ID                    = '4202342'
-VK_API_SECRET                = 'knPSfCxh6WGug1FvVPGQ'
 
 LOGIN_URL = reverse_lazy('login')
 #LOGIN_REDIRECT_URL = '/logged-in/'

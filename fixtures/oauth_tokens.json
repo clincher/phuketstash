@@ -1,0 +1,30 @@
+[
+{
+  "pk": 1,
+  "model": "oauth_tokens.accesstoken",
+  "fields": {
+    "access_token": "b981a87128208b2f87c4ff687cc66d20826ca45ec13294bf9f561afda298b03fbe21c86d3e3273e0b4a3c",
+    "granted": "2014-02-02T13:12:40.665Z",
+    "expires": "2014-02-03T13:12:35.656Z",
+    "token_type": null,
+    "user": null,
+    "provider": "vkontakte",
+    "scope": "all",
+    "refresh_token": null
+  }
+},
+{
+  "pk": 2,
+  "model": "oauth_tokens.accesstoken",
+  "fields": {
+    "access_token": "69c29d3b071c20fc6524fbf1db45f766d4c27b4eb9bc3d9e6f2ae5c877e54c07bd855cbc475c59fd42932",
+    "granted": "2014-02-05T19:37:26.916Z",
+    "expires": "2014-02-06T19:37:23.909Z",
+    "token_type": null,
+    "user": null,
+    "provider": "vkontakte",
+    "scope": "a,d,s,,,w,a,l,l,,,p,h,o,t,o,s,,,f,r,i,e,n,d,s,,,s,t,a,t,s,,,o,f,f,l,i,n,e",
+    "refresh_token": null
+  }
+}
+]
