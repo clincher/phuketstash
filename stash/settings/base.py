@@ -79,6 +79,10 @@ INSTALLED_APPS = (
     'easy_thumbnails',
     'cmsplugin_filer_file',
     'cmsplugin_filer_image',
+    'cmsplugin_filer_folder',
+    'cmsplugin_filer_link',
+    'cmsplugin_filer_teaser',
+    'cmsplugin_filer_video',
 
     # Application base, containing global templates.
     'base',
@@ -398,7 +402,7 @@ CMS_PLACEHOLDER_CONF = {
             {
                 'plugin_type':'TextPlugin',
                 'values':{
-                    'body':'<p>Great websites : %(_tag_child_1)s and %(_tag_child_2)s</p>'
+                    'body':'<p>The translation still not ready yet</p>'
                 },
                 'children':[
                     {
