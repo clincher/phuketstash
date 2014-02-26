@@ -752,10 +752,10 @@ body, .column-main-header div {
 }
 
 #menu-header-menu li strong {
-	font-size:1.2em;
-	/*font-weight:bold;*/
+	font-size:1em;
+	font-weight:bold;
 	display:inline;
-	font-family:'PT Sans Narrow', sans-serif;
+	font-family:'PT Sans Narrow', Helvetica, sans-serif;
 	text-transform:uppercase;
 	border-bottom:1px dotted #3f5983;
 	padding-right:3px;
@@ -764,8 +764,8 @@ body, .column-main-header div {
 #menu-header-menu li span {
 	color:#333 !important;
 	display:block;
-	font-family:'PT Sans Narrow', sans-serif;
-	font-size:0.8em;
+	font-family:'PT Sans Narrow', Helvetica, sans-serif;
+	font-size:0.7em;
 	line-height:13px;
 	padding:4px 0 0 1px;
 	opacity:0.8;
