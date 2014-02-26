@@ -113,10 +113,19 @@
             {% block content %}
                 <!-- END OUR STORY -->
             {% endblock %}
+            <div class="three-columns">
+                <div id="vk_like"></div>
+            </div>
+            <div class="three-columns">
+                <div class="fb-like"
+                     data-href="{{ request.build_absolute_uri }}"
+                     data-layout="standard"
+                     data-action="recommend"
+                     data-show-faces="true"
+                     data-share="true">
+                 </div>
+            </div>
             <div class="clear"></div>
-            <div class="divider full-width"></div>
-            <div id="vk_like"></div>
-            <div class="fb-like" data-href="{{ request.build_absolute_uri }}" data-layout="standard" data-action="recommend" data-show-faces="true" data-share="true"></div>
             {% show_breadcrumb "base/breadcrumb.html" %}
             <!-- BEGIN SOCIAL -->
             <!-- END SOCIAL -->
