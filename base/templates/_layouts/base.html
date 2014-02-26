@@ -119,17 +119,15 @@
             {% show_breadcrumb "base/breadcrumb.html" %}
 
             <!-- BEGIN SOCIAL -->
-
-{#            <div class="two-columns">#}
-{#                <div class="fb-like" data-href="{{ request.build_absolute_uri }}" data-layout="standard" data-action="recommend" data-show-faces="true" data-share="true"></div>#}
-{#                <div class="fb-recommendations" data-width="450" data-app-id="605738149495900" data-site="phuketstash.com" data-action="likes, recommends" data-max-age="35" data-colorscheme="light" data-header="true"></div>#}
-{#                <div class="fb-comments" data-width="450" data-numposts="3" data-colorscheme="light"></div>#}
-{#            </div>#}
-{#            <div class="two-columns last-column">#}
-{#                <div id="vk_like"></div>#}
-{#                <div id="vk_recommended"></div>#}
-{#                <div id="vk_comments"></div>#}
-{#            </div>#}
+            {% ifequal LANGUAGE_CODE 'en' %}
+                <div class="fb-like" data-href="{{ request.build_absolute_uri }}" data-layout="standard" data-action="recommend" data-show-faces="true" data-share="true"></div>
+                <div class="fb-recommendations" data-width="450" data-app-id="605738149495900" data-site="phuketstash.com" data-action="likes, recommends" data-max-age="35" data-colorscheme="light" data-header="true"></div>
+                <div class="fb-comments" data-width="450" data-numposts="3" data-colorscheme="light"></div>
+            {% else %}
+                <div id="vk_like"></div>
+                <div id="vk_recommended"></div>
+                <div id="vk_comments"></div>
+            {% endifequal %}
             <!-- END SOCIAL -->
         </div>
         <!-- END MAIN CONTENT -->
@@ -154,7 +152,15 @@
                     <div class="footer-divider responsive-divider"></div>
                 </div>
                 <div id="hours">
-                   <div class="fb-like-box" data-href="http://www.facebook.com/phuketstash" data-width="285" data-height="350" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
+                   <div class="fb-like-box"
+                        data-href="http://www.facebook.com/phuketstash"
+                        data-width="285" data-height="350"
+                        data-colorscheme="dark"
+                        data-show-faces="true"
+                        data-header="true"
+                        data-stream="false"
+                        data-show-border="false">
+                    </div>
 {#                    <div class="preheader">STASH</div>#}
 {#                    <h2>{% trans "hours" %}</h1>#}
 {#                    <ul id="hours_list">#}
