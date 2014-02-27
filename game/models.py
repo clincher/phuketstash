@@ -63,7 +63,7 @@ class Member(models.Model):
         verbose_name_plural = u'Участники'
 
     def __unicode__(self):
-        return u'{0}'.format(self.user.name)
+        return u'{0}'.format(self.user)
 
 
 class TeamMissionRelation(models.Model):
