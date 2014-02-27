@@ -111,7 +111,11 @@
                 <!-- END OUR STORY -->
             {% endblock %}
             <div class="clear"></div>
-            <h4>Не забывайте лайкать страницу, если то, что вы прочитали было интересно</h4>
+            {% ifequal LANGUAGE_CODE 'en' %}
+                <h4>Please, don't forget recommend this page to your friends, if this page is interesting</h4>
+            {% else %}
+                <h4>Не забывайте лайкать страницу, если эта страница интересна</h4>
+            {% endifequal %}
             <div class="two-columns">
                 <div id="vk_like"></div>
             </div>
@@ -138,14 +142,17 @@
                 <a href="#scrolltop" class="scroll"><div id="scrolltop-img"></div></a>
             </div>
             <div id="prefooter-content">
-            <h4>Не стесняйтесь задавать вопросы в комментариях к странице</h4>
+
             {% ifequal LANGUAGE_CODE 'en' %}
+                <h4>Please, stay your questions here</h4>
 {#                <div class="fb-recommendations" data-width="450" data-app-id="605738149495900" data-site="phuketstash.com" data-action="likes, recommends" data-max-age="35" data-colorscheme="light" data-header="true"></div>#}
                 <div class="fb-comments"
                      data-width="600"
                      data-numposts="10"
+                     data-href="{{ request.build_absolute_uri }}"
                      data-colorscheme="light"></div>
             {% else %}
+                <h4>Не стесняйтесь задавать вопросы в комментариях к странице</h4>
 {#                <div id="vk_recommended"></div>#}
                 <div id="vk_comments"></div>
             {% endifequal %}
