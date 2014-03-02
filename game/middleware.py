@@ -9,5 +9,5 @@ class GameMiddleware(object):
         try:
             request.game = Game.objects.filter(
                 is_active=True, start_date__gte=date.today())[0]
-        except Game.DoestNotExists:
+        except Game.DoestNotExist:
             request.game = None
