@@ -4,4 +4,5 @@
     {% if child.children %}
         {% show_menu from_level to_level extra_inactive extra_active "base/mobilemenu.html" "" "" child %}
     {% endif %}
+    <option>{% trans 'меню' %}</option>
 {% endfor %}
