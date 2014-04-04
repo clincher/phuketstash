@@ -112,22 +112,22 @@
             {% endblock %}
             <div class="clear"></div>
             {% ifequal LANGUAGE_CODE 'en' %}
-                <h4>Please, don't forget recommend this page to your friends, if this page is interesting</h4>
+                <h4>Please, recommend the page to your friends on facebook</h4>
+                <div class="two-columns">
+                    <div class="fb-like"
+                         data-href="{{ request.build_absolute_uri }}"
+                         data-layout="standard"
+                         data-action="recommend"
+                         data-show-faces="true"
+                         data-share="true">
+                     </div>
+                </div>
             {% else %}
-                <h4>Не забывайте лайкать страницу, если эта страница интересна</h4>
+                <h4>Жмите "Мне нравится" и "Рассказать друзьям", если эта страница вам понравилась</h4>
+                <div class="two-columns">
+                    <div id="vk_like"></div>
+                </div>
             {% endifequal %}
-            <div class="two-columns">
-                <div id="vk_like"></div>
-            </div>
-            <div class="two-columns">
-                <div class="fb-like"
-                     data-href="{{ request.build_absolute_uri }}"
-                     data-layout="standard"
-                     data-action="recommend"
-                     data-show-faces="true"
-                     data-share="true">
-                 </div>
-            </div>
             <div class="clear"></div>
             {% show_breadcrumb "base/breadcrumb.html" %}
             <!-- BEGIN SOCIAL -->
@@ -152,7 +152,7 @@
                      data-href="{{ request.build_absolute_uri }}"
                      data-colorscheme="light"></div>
             {% else %}
-                <h4>Не стесняйтесь задавать вопросы в комментариях к странице</h4>
+                <h4>Не стесняйтесь задавать вопросы в комментариях к странице :-)</h4>
 {#                <div id="vk_recommended"></div>#}
                 <div id="vk_comments"></div>
             {% endifequal %}
@@ -196,27 +196,27 @@
   {% endblock %}
   {% render_block "js" %}
     <!-- Start SiteHeart code -->
-<script>
-(function(){
-// your widget ID
-var widget_id = 1;
-_shcp = [{widget_id : widget_id}];
-// set default language
-var lang = (navigator.language || navigator.systemLanguage
-	|| navigator.userLanguage ||  "en")
-	.substr(0, 2).toLowerCase();
-// script url
-var url  = "widget.siteheart.com/widget/sh/" + widget_id + "/"
-  +  lang + "/widget.js";
-var hcc = document.createElement("script");
-hcc.type = "text/javascript";
-hcc.async = true;
-hcc.src = ("https:" == document.location.protocol ? "https" : "http")
-  +   "://" + url;
-var s = document.getElementsByTagName("script")[0];
-s.parentNode.insertBefore(hcc, s.nextSibling);
-})();
-</script>
+{#<script>#}
+{#(function(){#}
+{#// your widget ID#}
+{#var widget_id = 1;#}
+{#_shcp = [{widget_id : widget_id}];#}
+{#// set default language#}
+{#var lang = (navigator.language || navigator.systemLanguage#}
+{#	|| navigator.userLanguage ||  "en")#}
+{#	.substr(0, 2).toLowerCase();#}
+{#// script url#}
+{#var url  = "widget.siteheart.com/widget/sh/" + widget_id + "/"#}
+{#  +  lang + "/widget.js";#}
+{#var hcc = document.createElement("script");#}
+{#hcc.type = "text/javascript";#}
+{#hcc.async = true;#}
+{#hcc.src = ("https:" == document.location.protocol ? "https" : "http")#}
+{#  +   "://" + url;#}
+{#var s = document.getElementsByTagName("script")[0];#}
+{#s.parentNode.insertBefore(hcc, s.nextSibling);#}
+{#})();#}
+{#</script>#}
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
 (function (d, w, c) {
@@ -242,7 +242,23 @@ s.parentNode.insertBefore(hcc, s.nextSibling);
     } else { f(); }
 })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="//mc.yandex.ru/watch/24110755" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+<noscript>
+{#    reformal#}
+    <a href="http://reformal.ru">
+        <img src="http://media.reformal.ru/reformal.png" />
+    </a>
+    <a href="http://phuketstash.reformal.ru">
+        Oтзывы и предложения для Свободное пространство Phuket STASH
+    </a>
+</noscript>
+
+<noscript>
+{#    metrika#}
+    <div>
+        <img src="//mc.yandex.ru/watch/24110755" style="position:absolute; left:-9999px;" alt="" />
+    </div>
+</noscript>
 <!-- /Yandex.Metrika counter -->
 <!-- End SiteHeart code -->
   </body>
