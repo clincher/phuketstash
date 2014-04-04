@@ -180,7 +180,7 @@
   <!-- scripts concatenated and minified via django-compressor -->
   {% compress js %}
   {% block js %}
-      <script src="{% static 'js/main.js' %}"></script>
+      <script src="{% static 'js/main.js' %}?1"></script>
   {% endblock js %}
   {% endcompress %}
   <!-- end scripts -->
