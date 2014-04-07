@@ -716,7 +716,7 @@ body, .column-main-header div {
 #menu-header-menu li {
 	float:left;
 	text-shadow:0px 0px 3px #dcdbdb;
-    min-width:120px;
+    min-width: 120px;
     padding: 0 5px;
     position:relative;
 }
@@ -2809,22 +2809,15 @@ form label {
 	left:0px;
 }
 
-li#menu-item-3 {margin-right: 0;}
-
-li#menu-item-4,
-li#menu-item-5,
-li#menu-item-6 {
-    float: right !important;
-}
-
 #menu-header-menu li {
     font-size:0.9em;
     width: none !important;
-    min-width: 130px;
+    padding: 0 1px;
 }
 
 #menu-header-menu li strong {
 	border-bottom:none;
+    min-width:92px;
 }
 
 #menu-header-menu li span {
@@ -2832,7 +2825,8 @@ li#menu-item-6 {
 }
 
 .sub-menu li {
-	border-bottom:1px dotted #c2c2c2;
+    border-bottom:1px dotted #c2c2c2;
+    font-size: 0.9em;
 }
 
 #social-button {
