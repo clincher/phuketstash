@@ -2817,7 +2817,7 @@ form label {
 
 #menu-header-menu li strong {
 	border-bottom:none;
-    min-width:92px;
+    font-size: 0.9em;
 }
 
 #menu-header-menu li span {
@@ -2826,7 +2826,8 @@ form label {
 
 .sub-menu li {
     border-bottom:1px dotted #c2c2c2;
-    font-size: 0.9em;
+    min-width: 92px;
+
 }
 
 #social-button {
