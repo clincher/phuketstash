@@ -723,10 +723,11 @@ body, .column-main-header div {
 
 #menu-header-menu>li:after{
     position:absolute;
-    bottom:-15px;
+    bottom:-18px;
     left:0;
     right:0;
     height:20px;
+    content:'';
 }
 
 #menu-header-menu li>a:link, #menu-header-menu li>a:visited, #menu-header-menu li>a:active  {
