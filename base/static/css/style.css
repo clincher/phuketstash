@@ -716,7 +716,8 @@ body, .column-main-header div {
 #menu-header-menu li {
 	float:left;
 	text-shadow:0px 0px 3px #dcdbdb;
-    min-width:130px;
+    min-width:120px;
+    padding: 0 5px;
 
 }
 
