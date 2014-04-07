@@ -2817,7 +2817,7 @@ form label {
 #menu-item-4,
 #menu-item-5,
 #menu-item-6 {
-    float: right;
+    float: right !important;
 }
 
 #menu-header-menu li {
