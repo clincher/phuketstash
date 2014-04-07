@@ -734,7 +734,7 @@ body, .column-main-header div {
 #menu-item-4,
 #menu-item-5,
 #menu-item-6 {
-    float: right;
+    float: right !important;
 }
 
 #menu-item-1 span, #menu-item-2 span, #menu-item-3 span, #menu-item-4 span, #menu-item-5 span, #menu-item-6 span {
