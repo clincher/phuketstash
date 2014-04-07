@@ -718,7 +718,15 @@ body, .column-main-header div {
 	text-shadow:0px 0px 3px #dcdbdb;
     min-width:120px;
     padding: 0 5px;
+    {position:relative;}
+}
 
+#menu-header-menu>li:after{
+    position:absolute;
+    bottom:-15px;
+    left:0;
+    right:0;
+    height:20px;
 }
 
 #menu-header-menu li>a:link, #menu-header-menu li>a:visited, #menu-header-menu li>a:active  {
