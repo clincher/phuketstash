@@ -100,7 +100,7 @@ body, .column-main-header div.container {
 
 #language-chooser {
     position: absolute;
-    left: 300px;
+    left: 130px;
     top: 18px;
 }
 
@@ -122,7 +122,8 @@ body, .column-main-header div.container {
 
 #header-auth-form {
     position: absolute;
-    left: 580px;
+    left: auto;
+    right: 70px
     top: 18px;
     font-family: 'Droid Sans', Arial, sans-serif;
 }

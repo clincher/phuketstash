@@ -2810,8 +2810,9 @@ form label {
 }
 
 #menu-header-menu li {
-    font-size:0.9em;
+    font-size:0.7em;
     width: none !important;
+    min-width: 95px;
     padding: 0 1px;
 }
 
