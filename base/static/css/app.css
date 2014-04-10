@@ -100,7 +100,7 @@ body, .column-main-header div.container {
 
 #language-chooser {
     position: absolute;
-    left: 130px;
+    left: 300px;
     top: 18px;
 }
 
@@ -122,11 +122,22 @@ body, .column-main-header div.container {
 
 #header-auth-form {
     position: absolute;
-    left: auto;
-    right: 70px
+    left: 580px;
     top: 18px;
     font-family: 'Droid Sans', Arial, sans-serif;
 }
+
+@media (max-width: 959px) {
+    #language-chooser{
+        left: 130px;
+    }
+
+    #header-auth-form{
+        left: auto;
+        right: 70px;
+    }
+}
+
 
 #header-telephone {
     background: url(../images/phone_icon_green.png) 3px 2px no-repeat;
