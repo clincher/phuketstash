@@ -127,18 +127,6 @@ body, .column-main-header div.container {
     font-family: 'Droid Sans', Arial, sans-serif;
 }
 
-@media (max-width: 959px) {
-    #language-chooser{
-        left: 130px;
-    }
-
-    #header-auth-form{
-        left: auto;
-        right: 70px;
-    }
-}
-
-
 #header-telephone {
     background: url(../images/phone_icon_green.png) 3px 2px no-repeat;
 }
@@ -172,3 +160,34 @@ a.button {
     overflow: hidden;
     -webkit-transform: translateZ(0);
 }
+
+@media (max-width: 959px) {
+    #language-chooser{
+        left: 130px;
+    }
+
+    #header-auth-form{
+        left: auto;
+        right: 70px;
+    }
+
+    #story-illustration{
+        margin-right:0;
+        width: 260px;
+    }
+
+    #story-content{
+        padding-right:0;
+    }
+
+    ul.sub-menu{
+        font-size: 1.7em;
+        line-height: 0.8em;
+    }
+
+    #page-title-descr{
+        padding: 0px 25px 0 0;
+    }
+}
+
+@media (max-width: 767px) {}
